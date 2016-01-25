@@ -18,9 +18,12 @@
   "bugs": {
     "url": "https://github.com/schmitz1193/es6-tests/issues"
   },
-  "homepage": "https://github.com/schmitz1193/es6-tests#readme"
-},
-"engines": {
-  "node": ">=4.0.0"
+  "homepage": "https://github.com/schmitz1193/es6-tests#readme",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
   }
 }
