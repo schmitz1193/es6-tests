@@ -11,6 +11,14 @@ describe('let', function() {
     var sum=x+y+z;
     expect(sum).to.equal(21);
   });
+   it('it restricts scope to the block, function() {
+    let foo = 'bar';
+    if (true) {
+      let foo = 'baz';
+    };
+    expect(foo).to.equal('bar');
+  });
+
 });
 
 describe('const', function() {
